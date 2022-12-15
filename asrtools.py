@@ -18,10 +18,10 @@ try:
     import requests
     from colorama import init, Fore
 except ModuleNotFoundError:
+    import os
     os.system('pip install pyfiglet')
     os.system('pip install rich')
     os.system('pip install tqdm')
-    os.system('pip install os')
     os.system('pip install sys')
     os.system('pip install time')
     os.system('pip install random')
